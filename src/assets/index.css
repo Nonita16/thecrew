@@ -1,0 +1,76 @@
+
+.header_text{
+    color: white;
+    padding: 10px 20px;
+}
+
+.chatlist__header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.chatlist__container{
+    background: #343a40;
+    overflow: scroll;
+    height: 99vh;
+    
+}
+
+.list-group-item-dark.list-group-item-action.active{
+
+   background: silver !important;
+}
+
+.list-group-item-dark {
+    background-color: #1b1e21 !important;
+}
+
+
+.chatlist__card--date{
+    float: right;
+}
+
+.conversation__area{
+    overflow: scroll;
+    height: 99vh;
+}
+
+.conversation__date{
+    text-align: center;
+}
+
+.conversation__message--right{
+    width: 100%;
+    /*text-align: right;*/
+    float: right;
+    display: block;
+}
+
+.conversation__message--left{
+    width: 100%;
+    /*text-align: left;*/
+    float: left;
+    display: block;
+}
+
+.conversation__message--left p, .conversation__message--left span{ 
+    float: left;
+}
+
+.conversation__message--right p, .conversation__message--right span{
+    float: right;
+}
+.conversation__message--left p, .conversation__message--right p{
+    background: #1877F2;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+    margin-bottom: 0px;
+} 
+
+.conversation__textArea--message{
+    position: fixed;
+    width: 80%;
+    bottom:0;
+}
+
